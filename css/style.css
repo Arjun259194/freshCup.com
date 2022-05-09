@@ -3,3 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root{
+  --color-1:#602d0d;
+  --color-2:#ff8b42;
+  --color-3:#FFF5EB;
+}
