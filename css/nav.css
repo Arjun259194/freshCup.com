@@ -1,0 +1,40 @@
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--color-3);
+  color: var(--color-1);
+}
+
+.navBar .left {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 0;
+}
+
+.navBar .left img {
+  aspect-ratio: 1/1;
+  width: 3rem;
+  margin-inline: 0.25rem;
+}
+
+.navBar .left h1 {
+  font-family: var(--font-family-2);
+}
+
+.navBar ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.navBar ul li {
+  margin-inline: 0.8rem;
+  padding: .25rem;
+  border-radius: .5rem;
+}
+
+.navBar ul li a{
+  color: var(--color-1);
+  text-decoration: none;
+  font-weight: 700;
+}

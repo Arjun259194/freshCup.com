@@ -2,13 +2,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: var(--font-family-1);
 }
 
 :root{
-  --color-1:#602d0d;
-  --color-2:#ff8b42;
-  --color-3:#FFF5EB;
+  --color-1:#643813;
+  --color-2:#A0825D;
+  --color-3:#FFECCC;
+  --color-4:#0f0f0f;
 
   --font-family-1:'Josefin Sans', sans-serif;
   --font-family-2:'Permanent Marker', cursive;
+}
+
+.muted{
+  color:#0f0f0fa8;
 }
